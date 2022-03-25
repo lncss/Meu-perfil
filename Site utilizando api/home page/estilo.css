@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(225, 230, 235);
+}
+
+main{
+    width: 100%;
+}
+/* ----- Header -----*/
+header{
+    background-color: rgb(164, 178, 196);
+    padding: 10px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.active{
+    color: black;
+    text-align: center;
+}
+
+.header .navbar{width: 100%;}
+
+input{
+    margin-left: 950px;
+}
+
+/* ----- Main -----*/
+.descricao{
+    background-color: rgb(209, 217, 228);
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row{
+    padding: auto;
+    width: 90%;
+}
+
+#repositorios{
+    margin-top: 30px;
+    padding-left: 70px;
+}
+
+#tela{
+    margin-top: 30px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.btn-primary{
+    background-color:  rgb(164, 178, 196);
+    color: black;
+    border-color:  rgb(147, 151, 156);
+}
+
+.btn-primary:hover{
+    background-color: rgb(147, 151, 156);
+    border-color: rgb(164, 178, 196);
+}
+
+.card a{
+    color: black;
+}
+
+#links{
+    padding-left: 40px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#insta{
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#twitter{
+    width: 30%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.box-noticia img{
+    width: 60%;
+}
+/* ----- Footer -----*/
+footer{
+    background-color: rgb(164, 178, 196);
+    padding: 0;
+}
+
+footer p{
+ margin-top: 10px;
+}
+
+/* -----Responsividade-----*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        display: block;
+    }
+
+    .row{
+        display: block;
+    }
+    main p{
+       width: 70% ;
+    }
+
+    .repositorios{
+        width: 100%;  
+    }
+    .containerHeader{
+        display: block;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    
+    footer{
+        width: 100%;
+    }
+    
+
+}
+
+@media screen and(min-width:801px) and (max-width: 1400px){
+    .main{
+        width:100%;
+        padding-right: 0;
+       
+    }
+
+    .header{
+        width: 100%;
+    }
+
+   .card img{
+      width: 50%;
+      display: block;
+   }
+
+
+}
